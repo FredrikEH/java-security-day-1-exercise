@@ -15,7 +15,7 @@ import org.springframework.web.server.ResponseStatusException;
 import java.util.List;
 
 @RestController
-@RequestMapping("users/{userId}/games/{gameID}")
+@RequestMapping("users/{userId}/games/{gameId}")
 public class LoanController {
     @Autowired
     private LoanRepository loanRepository;
